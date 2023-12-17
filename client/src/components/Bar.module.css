@@ -1,0 +1,20 @@
+:root{
+    --bar_height: 40px;
+    --bar_borderRadius: 15px;
+}
+
+
+.BackBar{
+    background-color: rgb(110, 129, 145);
+    height: var(--bar_height);
+    width: 100%;
+    border-radius: var(--bar_borderRadius);
+}
+
+
+.Fill{
+    background-color: rgb(90, 250, 116);
+    height: var(--bar_height);
+    width: 80%;
+    border-radius: var(--bar_borderRadius);
+}
